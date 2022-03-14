@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  color: #b6d69b;
+  font-family: monospace;
+  padding-top: 16px;
+}
+
+canvas {
+  height: 324px;
+  background-color: #f3fee1;
+  border: 1px solid #b6d69b;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  image-rendering: pixelated;
+}
+
+a {
+  color: #619075;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+strong {
+  color: #203341;
+}

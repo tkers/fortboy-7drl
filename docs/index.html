@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>FortBoy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="gameboy.min.js"></script>
+    <script src="play.js"></script>
+    <script>
+      window.addEventListener('load', () => {
+        playFromUrl('fortboy.gb', document.getElementById('lcd'))
+      })
+    </script>
+  </head>
+  <body>
+    <strong>FortBoy</strong><br />
+    <canvas id="lcd" class="pixelated" width="160" height="144"></canvas><br />
+    &#x21af; <a href="fortboy.gb" download>download ROM</a>
+  </body>
+</html>
